@@ -1,1 +1,3 @@
-Create Table AddressBook (AddressBookId int primary key Identity(1,1),FirstName varchar(100),LastName varchar(100),Address text,city varchar(100),State varchar(50),Zip int,PhoneNumber bigint,Email varchar(50))
+Insert into AddressBook values('Rahul','Kumar','kanpur','Kanpur','UP',280073,9856785433,'rk@gmail.com')
+
+
