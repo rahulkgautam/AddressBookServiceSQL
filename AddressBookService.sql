@@ -1,1 +1,1 @@
-Select * from AddressBook where city='Kanpur' or State='UP'
+Select Count(city) as SizeOfAddressBookCity, count(State) as SizeofAddressBookState from AddressBook where city='Kanpur' or State='UP'
