@@ -1,2 +1,2 @@
-update AddressBook set Email='jr@gmail.com' where FirstName='Jack'
+delete AddressBook where FirstName='Jack'
 
