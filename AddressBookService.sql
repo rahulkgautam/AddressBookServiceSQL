@@ -1,1 +1,1 @@
-Select Count(city) as SizeOfAddressBookCity, count(State) as SizeofAddressBookState from AddressBook where city='Kanpur' or State='UP'
+SELECT * FROM AddressBook WHERE city = 'Kanpur' ORDER BY FirstName ASC;
