@@ -1,1 +1,1 @@
-alter table AddressBook add Name varchar(50), Type varchar(50)
+Select Type,Count(PhoneNumber)as TotalCount from AddressBook Group by Type
