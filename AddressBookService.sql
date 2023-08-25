@@ -1,2 +1,1 @@
-delete AddressBook where FirstName='Jack'
-
+Select * from AddressBook where city='Kanpur' or State='UP'
