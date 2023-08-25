@@ -1,1 +1,1 @@
-SELECT * FROM AddressBook WHERE city = 'Kanpur' ORDER BY FirstName ASC;
+alter table AddressBook add Name varchar(50), Type varchar(50)
